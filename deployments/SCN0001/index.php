@@ -7,7 +7,7 @@ $user = 'admin';
 $pass = 'admin';
 
 
-$db_obj = new InfluxDB\Client::fromDSN(sprintf('influxdb://%s:%s@%s:%s/%s',$user,$pass,$host,$port,$db_name));
+//$db_obj = new InfluxDB\Client::fromDSN(sprintf('influxdb://%s:%s@%s:%s/%s',$user,$pass,$host,$port,$db_name));
 
 $world = 'hello';
 
